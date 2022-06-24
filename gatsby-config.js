@@ -4,6 +4,15 @@ module.exports = {
     siteUrl: `https://operate-first.cloud/`,
   },
   plugins: [
+
+    {
+      resolve: `@lekoarts/gatsby-theme-minimal-blog-core`,
+      options: {
+        basePath: '/blog'
+      },
+    },
+
+
     'gatsby-plugin-mantine',
     {
       resolve: `gatsby-plugin-google-analytics`,
