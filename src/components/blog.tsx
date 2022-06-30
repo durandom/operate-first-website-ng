@@ -15,6 +15,8 @@ import { Group } from '@mantine/core';
 
 import { Code, Cloud, BuildingCommunity } from 'tabler-icons-react';
 
+import { Link } from "gatsby"
+
 import '../pages/style.css';
 // Component imports
 import Layout from "./Layout";
@@ -56,7 +58,8 @@ export const Blog = ({ posts }: PostsProps) => {
   return (
     <Layout>
       {posts.map((post) => (
-                <Card withBorder p="lg" radius="md" className={classes.card}>
+      <Link to={post.slug}>
+    <Card withBorder p="lg" radius="md" className={classes.card}>
                 <Card.Section mb="sm">
                   {/* <Image src={c.image} alt={c.title} height={180} /> */}
                 </Card.Section>
@@ -98,6 +101,7 @@ export const Blog = ({ posts }: PostsProps) => {
                   </Group>
                 </Card.Section> */}
               </Card>
+              </Link>
       ))}
     </Layout>
 );
