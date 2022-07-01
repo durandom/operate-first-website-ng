@@ -19,7 +19,7 @@ import { Link } from "gatsby"
 
 import '../pages/style.css';
 // Component imports
-import Layout from "./Layout";
+import { Layout } from "./Layout";
 
 const useStyles = createStyles((theme) => ({
   card: {

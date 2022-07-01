@@ -2,7 +2,7 @@
 import * as React from "react"
 // import { jsx, Heading } from "theme-ui"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import Layout from "./layout"
+import { Layout } from "./layout"
 // import ItemTags from "./item-tags"
 // import Seo from "./seo"
 // import PostFooter from "./post-footer"
