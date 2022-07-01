@@ -4,6 +4,7 @@ import '../pages/style.css';
 import { Nav } from "../components/homepage/Navbar";
 import { Footer } from "../components/homepage/Footer";
 import { AboutContent } from "../components/nav-tabs/AboutPage";
+import { Layout } from "../components/Layout";
 
 const AboutPage = () => {
 
