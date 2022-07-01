@@ -17,7 +17,7 @@
     "deploy": "npm run build && npm run gh-pages -- -m 'Updates: Manual build'"
   },
   "dependencies": {
-<<<<<<< HEAD
+    "@lekoarts/gatsby-theme-minimal-blog-core": "4.1.8",
     "@mantine/core": "4.2.11",
     "@mantine/hooks": "4.2.11",
     "gatsby": "4.17.2",
@@ -28,20 +28,6 @@
     "react-dom": "18.2.0",
     "react-helmet": "6.1.0",
     "tabler-icons-react": "1.52.0"
-=======
-    "@lekoarts/gatsby-theme-minimal-blog-core": "^4.1.8",
-    "@mantine/core": "^4.2.10",
-    "@mantine/hooks": "^4.2.10",
-    "gatsby": "^4.16.0",
-    "gatsby-plugin-google-analytics": "^4.16.0",
-    "gatsby-plugin-manifest": "^4.16.0",
-    "gatsby-plugin-mantine": "^4.0.0",
-    "gatsby-plugin-mdx": "^3.16.1",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-helmet": "^6.1.0",
-    "tabler-icons-react": "^1.49.0"
->>>>>>> ef52dd0 (wip)
   },
   "devDependencies": {
     "eslint": "8.14.0",
